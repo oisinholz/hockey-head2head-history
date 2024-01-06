@@ -1,4 +1,5 @@
 import axios from "axios";
+import { getTeams } from "./functions";
 
 const Home = () => {
 
@@ -18,7 +19,7 @@ const Home = () => {
 
     return ( 
         <div className="home">
-            <button onClick={handleClick}>Click me</button>
+            <button onClick={getTeams}>Click me</button>
         </div>
      );
 }

@@ -1,0 +1,1645 @@
+{
+    "get": "standings",
+    "parameters": {
+        "league": "57",
+        "season": "2023"
+    },
+    "errors": [],
+    "results": 1,
+    "response": [
+        [
+            {
+                "position": 1,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 704,
+                    "name": "Winnipeg Jets",
+                    "logo": "https://media.api-sports.io/hockey/teams/704.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 38,
+                    "win": {
+                        "total": 23,
+                        "percentage": "0.605"
+                    },
+                    "win_overtime": {
+                        "total": 2,
+                        "percentage": "0.053"
+                    },
+                    "lose": {
+                        "total": 9,
+                        "percentage": "0.237"
+                    },
+                    "lose_overtime": {
+                        "total": 4,
+                        "percentage": "0.105"
+                    }
+                },
+                "goals": {
+                    "for": 126,
+                    "against": 92
+                },
+                "points": 54,
+                "form": "WWWWW",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 2,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 679,
+                    "name": "Colorado Avalanche",
+                    "logo": "https://media.api-sports.io/hockey/teams/679.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 39,
+                    "win": {
+                        "total": 22,
+                        "percentage": "0.564"
+                    },
+                    "win_overtime": {
+                        "total": 3,
+                        "percentage": "0.077"
+                    },
+                    "lose": {
+                        "total": 11,
+                        "percentage": "0.282"
+                    },
+                    "lose_overtime": {
+                        "total": 3,
+                        "percentage": "0.077"
+                    }
+                },
+                "goals": {
+                    "for": 144,
+                    "against": 119
+                },
+                "points": 53,
+                "form": "WOWOWWLO",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 3,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 701,
+                    "name": "Vancouver Canucks",
+                    "logo": "https://media.api-sports.io/hockey/teams/701.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 38,
+                    "win": {
+                        "total": 23,
+                        "percentage": "0.605"
+                    },
+                    "win_overtime": {
+                        "total": 1,
+                        "percentage": "0.026"
+                    },
+                    "lose": {
+                        "total": 11,
+                        "percentage": "0.289"
+                    },
+                    "lose_overtime": {
+                        "total": 3,
+                        "percentage": "0.079"
+                    }
+                },
+                "goals": {
+                    "for": 143,
+                    "against": 98
+                },
+                "points": 51,
+                "form": "LWLWLO",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 4,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 681,
+                    "name": "Dallas Stars",
+                    "logo": "https://media.api-sports.io/hockey/teams/681.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 37,
+                    "win": {
+                        "total": 15,
+                        "percentage": "0.405"
+                    },
+                    "win_overtime": {
+                        "total": 7,
+                        "percentage": "0.189"
+                    },
+                    "lose": {
+                        "total": 10,
+                        "percentage": "0.270"
+                    },
+                    "lose_overtime": {
+                        "total": 5,
+                        "percentage": "0.135"
+                    }
+                },
+                "goals": {
+                    "for": 135,
+                    "against": 116
+                },
+                "points": 49,
+                "form": "LOLWWOL",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 5,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 702,
+                    "name": "Vegas Golden Knights",
+                    "logo": "https://media.api-sports.io/hockey/teams/702.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 39,
+                    "win": {
+                        "total": 16,
+                        "percentage": "0.410"
+                    },
+                    "win_overtime": {
+                        "total": 6,
+                        "percentage": "0.154"
+                    },
+                    "lose": {
+                        "total": 12,
+                        "percentage": "0.308"
+                    },
+                    "lose_overtime": {
+                        "total": 5,
+                        "percentage": "0.128"
+                    }
+                },
+                "goals": {
+                    "for": 128,
+                    "against": 110
+                },
+                "points": 49,
+                "form": "LLWLL",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 6,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 685,
+                    "name": "Los Angeles Kings",
+                    "logo": "https://media.api-sports.io/hockey/teams/685.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 35,
+                    "win": {
+                        "total": 18,
+                        "percentage": "0.514"
+                    },
+                    "win_overtime": {
+                        "total": 2,
+                        "percentage": "0.057"
+                    },
+                    "lose": {
+                        "total": 9,
+                        "percentage": "0.257"
+                    },
+                    "lose_overtime": {
+                        "total": 6,
+                        "percentage": "0.171"
+                    }
+                },
+                "goals": {
+                    "for": 119,
+                    "against": 87
+                },
+                "points": 46,
+                "form": "LOLLOLW",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 7,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 689,
+                    "name": "Nashville Predators",
+                    "logo": "https://media.api-sports.io/hockey/teams/689.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 39,
+                    "win": {
+                        "total": 15,
+                        "percentage": "0.385"
+                    },
+                    "win_overtime": {
+                        "total": 6,
+                        "percentage": "0.154"
+                    },
+                    "lose": {
+                        "total": 17,
+                        "percentage": "0.436"
+                    },
+                    "lose_overtime": {
+                        "total": 1,
+                        "percentage": "0.026"
+                    }
+                },
+                "goals": {
+                    "for": 122,
+                    "against": 122
+                },
+                "points": 43,
+                "form": "LWWOLOL",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 8,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 1436,
+                    "name": "Seattle Kraken",
+                    "logo": "https://media.api-sports.io/hockey/teams/1436.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 39,
+                    "win": {
+                        "total": 12,
+                        "percentage": "0.308"
+                    },
+                    "win_overtime": {
+                        "total": 4,
+                        "percentage": "0.103"
+                    },
+                    "lose": {
+                        "total": 14,
+                        "percentage": "0.359"
+                    },
+                    "lose_overtime": {
+                        "total": 9,
+                        "percentage": "0.231"
+                    }
+                },
+                "goals": {
+                    "for": 106,
+                    "against": 115
+                },
+                "points": 41,
+                "form": "WWWOWW",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 9,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 1460,
+                    "name": "Arizona Coyotes",
+                    "logo": "https://media.api-sports.io/hockey/teams/1460.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 37,
+                    "win": {
+                        "total": 15,
+                        "percentage": "0.405"
+                    },
+                    "win_overtime": {
+                        "total": 4,
+                        "percentage": "0.108"
+                    },
+                    "lose": {
+                        "total": 16,
+                        "percentage": "0.432"
+                    },
+                    "lose_overtime": {
+                        "total": 2,
+                        "percentage": "0.054"
+                    }
+                },
+                "goals": {
+                    "for": 112,
+                    "against": 108
+                },
+                "points": 40,
+                "form": "LLWWOL",
+                "description": null
+            },
+            {
+                "position": 10,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 683,
+                    "name": "Edmonton Oilers",
+                    "logo": "https://media.api-sports.io/hockey/teams/683.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 35,
+                    "win": {
+                        "total": 16,
+                        "percentage": "0.457"
+                    },
+                    "win_overtime": {
+                        "total": 3,
+                        "percentage": "0.086"
+                    },
+                    "lose": {
+                        "total": 15,
+                        "percentage": "0.429"
+                    },
+                    "lose_overtime": {
+                        "total": 1,
+                        "percentage": "0.029"
+                    }
+                },
+                "goals": {
+                    "for": 128,
+                    "against": 112
+                },
+                "points": 39,
+                "form": "WWWOWW",
+                "description": null
+            },
+            {
+                "position": 11,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 698,
+                    "name": "St. Louis Blues",
+                    "logo": "https://media.api-sports.io/hockey/teams/698.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 37,
+                    "win": {
+                        "total": 16,
+                        "percentage": "0.432"
+                    },
+                    "win_overtime": {
+                        "total": 3,
+                        "percentage": "0.081"
+                    },
+                    "lose": {
+                        "total": 17,
+                        "percentage": "0.459"
+                    },
+                    "lose_overtime": {
+                        "total": 1,
+                        "percentage": "0.027"
+                    }
+                },
+                "goals": {
+                    "for": 107,
+                    "against": 119
+                },
+                "points": 39,
+                "form": "WLLWW",
+                "description": null
+            },
+            {
+                "position": 12,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 675,
+                    "name": "Calgary Flames",
+                    "logo": "https://media.api-sports.io/hockey/teams/675.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 38,
+                    "win": {
+                        "total": 14,
+                        "percentage": "0.368"
+                    },
+                    "win_overtime": {
+                        "total": 3,
+                        "percentage": "0.079"
+                    },
+                    "lose": {
+                        "total": 16,
+                        "percentage": "0.421"
+                    },
+                    "lose_overtime": {
+                        "total": 5,
+                        "percentage": "0.132"
+                    }
+                },
+                "goals": {
+                    "for": 116,
+                    "against": 124
+                },
+                "points": 39,
+                "form": "WWWLL",
+                "description": null
+            },
+            {
+                "position": 13,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 687,
+                    "name": "Minnesota Wild",
+                    "logo": "https://media.api-sports.io/hockey/teams/687.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 37,
+                    "win": {
+                        "total": 11,
+                        "percentage": "0.297"
+                    },
+                    "win_overtime": {
+                        "total": 5,
+                        "percentage": "0.135"
+                    },
+                    "lose": {
+                        "total": 17,
+                        "percentage": "0.459"
+                    },
+                    "lose_overtime": {
+                        "total": 4,
+                        "percentage": "0.108"
+                    }
+                },
+                "goals": {
+                    "for": 112,
+                    "against": 120
+                },
+                "points": 36,
+                "form": "LLLLW",
+                "description": null
+            },
+            {
+                "position": 14,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 670,
+                    "name": "Anaheim Ducks",
+                    "logo": "https://media.api-sports.io/hockey/teams/670.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 38,
+                    "win": {
+                        "total": 9,
+                        "percentage": "0.237"
+                    },
+                    "win_overtime": {
+                        "total": 4,
+                        "percentage": "0.105"
+                    },
+                    "lose": {
+                        "total": 24,
+                        "percentage": "0.632"
+                    },
+                    "lose_overtime": {
+                        "total": 1,
+                        "percentage": "0.026"
+                    }
+                },
+                "goals": {
+                    "for": 95,
+                    "against": 127
+                },
+                "points": 27,
+                "form": "LLOLLW",
+                "description": null
+            },
+            {
+                "position": 15,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 678,
+                    "name": "Chicago Blackhawks",
+                    "logo": "https://media.api-sports.io/hockey/teams/678.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 39,
+                    "win": {
+                        "total": 8,
+                        "percentage": "0.205"
+                    },
+                    "win_overtime": {
+                        "total": 3,
+                        "percentage": "0.077"
+                    },
+                    "lose": {
+                        "total": 26,
+                        "percentage": "0.667"
+                    },
+                    "lose_overtime": {
+                        "total": 2,
+                        "percentage": "0.051"
+                    }
+                },
+                "goals": {
+                    "for": 90,
+                    "against": 148
+                },
+                "points": 24,
+                "form": "LLLLLO",
+                "description": null
+            },
+            {
+                "position": 16,
+                "stage": "NHL",
+                "group": {
+                    "name": "Western Conference"
+                },
+                "team": {
+                    "id": 697,
+                    "name": "San Jose Sharks",
+                    "logo": "https://media.api-sports.io/hockey/teams/697.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 39,
+                    "win": {
+                        "total": 7,
+                        "percentage": "0.179"
+                    },
+                    "win_overtime": {
+                        "total": 2,
+                        "percentage": "0.051"
+                    },
+                    "lose": {
+                        "total": 27,
+                        "percentage": "0.692"
+                    },
+                    "lose_overtime": {
+                        "total": 3,
+                        "percentage": "0.077"
+                    }
+                },
+                "goals": {
+                    "for": 79,
+                    "against": 160
+                },
+                "points": 21,
+                "form": "LLLLL",
+                "description": null
+            },
+            {
+                "position": 1,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 692,
+                    "name": "New York Rangers",
+                    "logo": "https://media.api-sports.io/hockey/teams/692.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 37,
+                    "win": {
+                        "total": 21,
+                        "percentage": "0.568"
+                    },
+                    "win_overtime": {
+                        "total": 5,
+                        "percentage": "0.135"
+                    },
+                    "lose": {
+                        "total": 10,
+                        "percentage": "0.270"
+                    },
+                    "lose_overtime": {
+                        "total": 1,
+                        "percentage": "0.027"
+                    }
+                },
+                "goals": {
+                    "for": 126,
+                    "against": 102
+                },
+                "points": 53,
+                "form": "WLWLW",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 2,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 673,
+                    "name": "Boston Bruins",
+                    "logo": "https://media.api-sports.io/hockey/teams/673.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 37,
+                    "win": {
+                        "total": 19,
+                        "percentage": "0.514"
+                    },
+                    "win_overtime": {
+                        "total": 4,
+                        "percentage": "0.108"
+                    },
+                    "lose": {
+                        "total": 8,
+                        "percentage": "0.216"
+                    },
+                    "lose_overtime": {
+                        "total": 6,
+                        "percentage": "0.162"
+                    }
+                },
+                "goals": {
+                    "for": 123,
+                    "against": 98
+                },
+                "points": 52,
+                "form": "LWWWW",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 3,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 684,
+                    "name": "Florida Panthers",
+                    "logo": "https://media.api-sports.io/hockey/teams/684.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 38,
+                    "win": {
+                        "total": 22,
+                        "percentage": "0.579"
+                    },
+                    "win_overtime": {
+                        "total": 2,
+                        "percentage": "0.053"
+                    },
+                    "lose": {
+                        "total": 12,
+                        "percentage": "0.316"
+                    },
+                    "lose_overtime": {
+                        "total": 2,
+                        "percentage": "0.053"
+                    }
+                },
+                "goals": {
+                    "for": 115,
+                    "against": 95
+                },
+                "points": 50,
+                "form": "WWWWW",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 4,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 676,
+                    "name": "Carolina Hurricanes",
+                    "logo": "https://media.api-sports.io/hockey/teams/676.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 39,
+                    "win": {
+                        "total": 18,
+                        "percentage": "0.462"
+                    },
+                    "win_overtime": {
+                        "total": 4,
+                        "percentage": "0.103"
+                    },
+                    "lose": {
+                        "total": 13,
+                        "percentage": "0.333"
+                    },
+                    "lose_overtime": {
+                        "total": 4,
+                        "percentage": "0.103"
+                    }
+                },
+                "goals": {
+                    "for": 136,
+                    "against": 120
+                },
+                "points": 48,
+                "form": "WWWWW",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 5,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 691,
+                    "name": "New York Islanders",
+                    "logo": "https://media.api-sports.io/hockey/teams/691.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 38,
+                    "win": {
+                        "total": 14,
+                        "percentage": "0.368"
+                    },
+                    "win_overtime": {
+                        "total": 4,
+                        "percentage": "0.105"
+                    },
+                    "lose": {
+                        "total": 10,
+                        "percentage": "0.263"
+                    },
+                    "lose_overtime": {
+                        "total": 10,
+                        "percentage": "0.263"
+                    }
+                },
+                "goals": {
+                    "for": 119,
+                    "against": 125
+                },
+                "points": 46,
+                "form": "WLOLWL",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 6,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 700,
+                    "name": "Toronto Maple Leafs",
+                    "logo": "https://media.api-sports.io/hockey/teams/700.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 36,
+                    "win": {
+                        "total": 11,
+                        "percentage": "0.306"
+                    },
+                    "win_overtime": {
+                        "total": 8,
+                        "percentage": "0.222"
+                    },
+                    "lose": {
+                        "total": 10,
+                        "percentage": "0.278"
+                    },
+                    "lose_overtime": {
+                        "total": 7,
+                        "percentage": "0.194"
+                    }
+                },
+                "goals": {
+                    "for": 129,
+                    "against": 119
+                },
+                "points": 45,
+                "form": "WOWLLOL",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 7,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 690,
+                    "name": "New Jersey Devils",
+                    "logo": "https://media.api-sports.io/hockey/teams/690.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 37,
+                    "win": {
+                        "total": 17,
+                        "percentage": "0.459"
+                    },
+                    "win_overtime": {
+                        "total": 4,
+                        "percentage": "0.108"
+                    },
+                    "lose": {
+                        "total": 14,
+                        "percentage": "0.378"
+                    },
+                    "lose_overtime": {
+                        "total": 2,
+                        "percentage": "0.054"
+                    }
+                },
+                "goals": {
+                    "for": 131,
+                    "against": 130
+                },
+                "points": 44,
+                "form": "WWLWWO",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 8,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 695,
+                    "name": "Philadelphia Flyers",
+                    "logo": "https://media.api-sports.io/hockey/teams/695.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 38,
+                    "win": {
+                        "total": 13,
+                        "percentage": "0.342"
+                    },
+                    "win_overtime": {
+                        "total": 6,
+                        "percentage": "0.158"
+                    },
+                    "lose": {
+                        "total": 13,
+                        "percentage": "0.342"
+                    },
+                    "lose_overtime": {
+                        "total": 6,
+                        "percentage": "0.158"
+                    }
+                },
+                "goals": {
+                    "for": 113,
+                    "against": 107
+                },
+                "points": 44,
+                "form": "LOLLLOW",
+                "description": "Promotion - NHL (Play Offs: )"
+            },
+            {
+                "position": 9,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 699,
+                    "name": "Tampa Bay Lightning",
+                    "logo": "https://media.api-sports.io/hockey/teams/699.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 40,
+                    "win": {
+                        "total": 16,
+                        "percentage": "0.400"
+                    },
+                    "win_overtime": {
+                        "total": 3,
+                        "percentage": "0.075"
+                    },
+                    "lose": {
+                        "total": 16,
+                        "percentage": "0.400"
+                    },
+                    "lose_overtime": {
+                        "total": 5,
+                        "percentage": "0.125"
+                    }
+                },
+                "goals": {
+                    "for": 131,
+                    "against": 136
+                },
+                "points": 43,
+                "form": "WLWLL",
+                "description": null
+            },
+            {
+                "position": 10,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 696,
+                    "name": "Pittsburgh Penguins",
+                    "logo": "https://media.api-sports.io/hockey/teams/696.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 37,
+                    "win": {
+                        "total": 16,
+                        "percentage": "0.432"
+                    },
+                    "win_overtime": {
+                        "total": 3,
+                        "percentage": "0.081"
+                    },
+                    "lose": {
+                        "total": 14,
+                        "percentage": "0.378"
+                    },
+                    "lose_overtime": {
+                        "total": 4,
+                        "percentage": "0.108"
+                    }
+                },
+                "goals": {
+                    "for": 116,
+                    "against": 102
+                },
+                "points": 42,
+                "form": "WLWWW",
+                "description": null
+            },
+            {
+                "position": 11,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 703,
+                    "name": "Washington Capitals",
+                    "logo": "https://media.api-sports.io/hockey/teams/703.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 37,
+                    "win": {
+                        "total": 12,
+                        "percentage": "0.324"
+                    },
+                    "win_overtime": {
+                        "total": 6,
+                        "percentage": "0.162"
+                    },
+                    "lose": {
+                        "total": 13,
+                        "percentage": "0.351"
+                    },
+                    "lose_overtime": {
+                        "total": 6,
+                        "percentage": "0.162"
+                    }
+                },
+                "goals": {
+                    "for": 90,
+                    "against": 114
+                },
+                "points": 42,
+                "form": "LLWLOL",
+                "description": null
+            },
+            {
+                "position": 12,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 682,
+                    "name": "Detroit Red Wings",
+                    "logo": "https://media.api-sports.io/hockey/teams/682.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 39,
+                    "win": {
+                        "total": 14,
+                        "percentage": "0.359"
+                    },
+                    "win_overtime": {
+                        "total": 5,
+                        "percentage": "0.128"
+                    },
+                    "lose": {
+                        "total": 16,
+                        "percentage": "0.410"
+                    },
+                    "lose_overtime": {
+                        "total": 4,
+                        "percentage": "0.103"
+                    }
+                },
+                "goals": {
+                    "for": 141,
+                    "against": 134
+                },
+                "points": 42,
+                "form": "WOWLWOL",
+                "description": null
+            },
+            {
+                "position": 13,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 688,
+                    "name": "Montreal Canadiens",
+                    "logo": "https://media.api-sports.io/hockey/teams/688.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 38,
+                    "win": {
+                        "total": 8,
+                        "percentage": "0.211"
+                    },
+                    "win_overtime": {
+                        "total": 8,
+                        "percentage": "0.211"
+                    },
+                    "lose": {
+                        "total": 17,
+                        "percentage": "0.447"
+                    },
+                    "lose_overtime": {
+                        "total": 5,
+                        "percentage": "0.132"
+                    }
+                },
+                "goals": {
+                    "for": 107,
+                    "against": 134
+                },
+                "points": 37,
+                "form": "LWLLL",
+                "description": null
+            },
+            {
+                "position": 14,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 674,
+                    "name": "Buffalo Sabres",
+                    "logo": "https://media.api-sports.io/hockey/teams/674.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 39,
+                    "win": {
+                        "total": 14,
+                        "percentage": "0.359"
+                    },
+                    "win_overtime": {
+                        "total": 2,
+                        "percentage": "0.051"
+                    },
+                    "lose": {
+                        "total": 19,
+                        "percentage": "0.487"
+                    },
+                    "lose_overtime": {
+                        "total": 4,
+                        "percentage": "0.103"
+                    }
+                },
+                "goals": {
+                    "for": 117,
+                    "against": 133
+                },
+                "points": 36,
+                "form": "WLWOLLO",
+                "description": null
+            },
+            {
+                "position": 15,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 680,
+                    "name": "Columbus Blue Jackets",
+                    "logo": "https://media.api-sports.io/hockey/teams/680.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 40,
+                    "win": {
+                        "total": 9,
+                        "percentage": "0.225"
+                    },
+                    "win_overtime": {
+                        "total": 4,
+                        "percentage": "0.100"
+                    },
+                    "lose": {
+                        "total": 19,
+                        "percentage": "0.475"
+                    },
+                    "lose_overtime": {
+                        "total": 8,
+                        "percentage": "0.200"
+                    }
+                },
+                "goals": {
+                    "for": 123,
+                    "against": 146
+                },
+                "points": 34,
+                "form": "WOLLOWOLO",
+                "description": null
+            },
+            {
+                "position": 16,
+                "stage": "NHL",
+                "group": {
+                    "name": "Eastern Conference"
+                },
+                "team": {
+                    "id": 693,
+                    "name": "Ottawa Senators",
+                    "logo": "https://media.api-sports.io/hockey/teams/693.png"
+                },
+                "league": {
+                    "id": 57,
+                    "name": "NHL",
+                    "type": "League",
+                    "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 31,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https://media.api-sports.io/flags/us.svg"
+                },
+                "games": {
+                    "played": 34,
+                    "win": {
+                        "total": 11,
+                        "percentage": "0.324"
+                    },
+                    "win_overtime": {
+                        "total": 3,
+                        "percentage": "0.088"
+                    },
+                    "lose": {
+                        "total": 20,
+                        "percentage": "0.588"
+                    },
+                    "lose_overtime": {
+                        "total": 0,
+                        "percentage": "0.000"
+                    }
+                },
+                "goals": {
+                    "for": 115,
+                    "against": 122
+                },
+                "points": 28,
+                "form": "LLWLW",
+                "description": null
+            }
+        ]
+    ]
+}
