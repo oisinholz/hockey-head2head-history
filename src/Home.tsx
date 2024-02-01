@@ -1,14 +1,16 @@
-import { getTeams } from "./functions";
-import { useState } from "react";
-import { useEffect } from "react";
+import { getTeams,headToHead } from "./functions";
+import { useState, useEffect } from "react";
 import { ITeam } from "./interfaces";
 
 const Home = () => {
 
     const [teams, setTeams] = useState<ITeam[]>([]);
+    
+    const sortedTeams = [...teams].sort((a, b) => a.name.localeCompare(b.name));
+    //spread operator creates a new array with the same elements as "teams"
 
-    const [optionA, setOptionA] = useState('');
-    const [optionB, setOptionB] = useState('');
+    const [optionA, setOptionA] = useState<string>('');
+    const [optionB, setOptionB] = useState<string>('');
     
     useEffect(() => {
         let ignore = false;
@@ -22,18 +24,20 @@ const Home = () => {
         return () => {
           ignore = true;
         };}, []);
-    
-        // const checkSelectOptions = (e:any, i:number) => {
-        //     e.preventDefault();
-        //     if (i === 1)
-        //       setOptionB(
-        //         teams.filter((entry) => entry.name !== e.target.value)
-        //       );
-        //     else if (i === 2)
-        //       setOptionA(
-        //         teams.filter((entry) => entry.name !== e.target.value)
-        //       );
-        //   };
+
+        const handleSelectChange = (value: string, selectNumber: number) => {
+            if (selectNumber === 1) {
+              setOptionA(value);
+              // setTeams((prevTeams) => prevTeams.filter((team) => team.name !== value));
+            } else if (selectNumber === 2) {
+              setOptionB(value);
+              // setTeams((prevTeams) => prevTeams.filter((team) => team.name !== value));
+            }
+          };
+
+          const getFilteredTeams = (selectedValue: string) => {
+            return teams.filter((team) => team.name !== selectedValue);
+          };
     
 
 
@@ -43,48 +47,63 @@ const Home = () => {
             
             <select
             required 
+            defaultValue={'DEFAULT'}
             name="leftTeam" 
             id="leftTeam"
             value={optionA}
             onChange={(e) => {
-                setOptionA(e.target.value);
-            }}
+              handleSelectChange(e.target.value, 1)
+              if(e.target.value === optionB){
+                alert('Please choose two different teams');
+                setOptionA('');
+              }}}
             // onChange={(e) => {
-            //     checkSelectOptions(e, 1);
+            //     const selectedValue = e.target.value;
+            //     setOptionA(selectedValue);
+            //     setTeams((prevTeams) => getFilteredTeams(selectedValue));
             //   }}
             >
-                <option value="" disabled selected>Please choose an option</option>
-                {teams.map((option, optionIndex) => (
-                    <option key={optionIndex}
-                    value={option.name}>
+                <option value='' disabled >Please choose an option</option>
+                {sortedTeams.map((option) => (
+                    <option key={option.id}
+                    value={option.id}>
                     {option.name}
                 </option>
                 ))}
             </select>
             
+            <p>VS</p>
+
             <select
             required 
+            defaultValue={'DEFAULT'}
             name="rightTeam" 
             id="rightTeam"
             value={optionB}
             onChange={(e) => {
-                setOptionB(e.target.value);
-            }}
+              handleSelectChange(e.target.value, 2)
+              if(e.target.value === optionA){
+                alert('Please choose two different teams');
+                setOptionB('');
+              }}}
             // onChange={(e) => {
-            //     checkSelectOptions(e, 2);
+            //     const selectedValue = e.target.value;
+            //     setOptionB(selectedValue);
+            //     setTeams((prevTeams) => getFilteredTeams(selectedValue));
             //   }}
             >
-                <option value="" disabled selected>Please choose an option</option>
-                {teams.map((option, optionIndex) => (
-                    <option key={optionIndex}
-                    value={option.name}>
+                <option value="" disabled>Please choose an option</option>
+                {sortedTeams.map((option) => (
+                    <option key={option.id}
+                    value={option.id}>
                     {option.name}
                 </option>
                 ))}
             </select>
 
 
-            <button onClick={getTeams}>Go!</button>
+            {/* <button onClick={() => console.log(optionA + " v " + optionB)}>Go!</button> */}
+            <button onClick={()=> headToHead(optionA, optionB)}>Go!</button>
         </div>
      );
 }

@@ -29,3 +29,17 @@ export function getTeams(): ITeam[]{
         console.log(err)
     })
 }
+
+  export function headToHead(teamA: string, teamB:string) {
+    axios.get('https://v1.hockey.api-sports.io/games/h2h?h2h='+teamA+'-'+teamB, {
+        headers:{
+            'x-rapidapi-key':'4a7b521a87ba35b3644c201ed432b06e'
+        }
+    })
+    .then(res =>{
+        console.log(res.data.response)
+    })
+    .catch(err =>{
+        console.log(err)
+    })
+}
