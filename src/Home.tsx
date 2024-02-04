@@ -1,6 +1,7 @@
-import { getTeams,headToHead } from "./functions";
+import { getTeams, headToHead } from "./functions";
 import { useState, useEffect } from "react";
 import { ITeam } from "./interfaces";
+import CircularIndeterminate from "./spinner";
 
 const Home = () => {
 
@@ -11,6 +12,9 @@ const Home = () => {
 
     const [optionA, setOptionA] = useState<string>('');
     const [optionB, setOptionB] = useState<string>('');
+
+    const [loading, setLoading] = useState(false);
+    //when loading is true, will show circular progress bar
     
     useEffect(() => {
         let ignore = false;
@@ -38,6 +42,15 @@ const Home = () => {
           const getFilteredTeams = (selectedValue: string) => {
             return teams.filter((team) => team.name !== selectedValue);
           };
+
+
+        const goButtonClick = () => {
+          setLoading(true);
+          setTimeout(()=>{
+            setLoading(false);
+            headToHead(optionA, optionB);
+          }, 3000);
+        };
     
 
 
@@ -103,7 +116,12 @@ const Home = () => {
 
 
             {/* <button onClick={() => console.log(optionA + " v " + optionB)}>Go!</button> */}
-            <button onClick={()=> headToHead(optionA, optionB)}>Go!</button>
+            {/* <button onClick={()=> headToHead(optionA, optionB)}>Go!</button> */}
+            
+            <button onClick={goButtonClick}>GO!</button>
+
+            {loading && <CircularIndeterminate />}
+            
         </div>
      );
 }
