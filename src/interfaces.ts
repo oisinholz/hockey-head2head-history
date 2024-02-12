@@ -18,5 +18,18 @@ export interface ITeam {
     description: any
   }
 
+  export interface IGame {
+    date: string;
+    scores: {
+      home: number;
+      away: number;
+    };
+    teams: {
+      home: ITeam;
+      away: ITeam
+    }
+
+  }
+
 
 

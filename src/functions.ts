@@ -39,7 +39,7 @@ export function getTeams(): ITeam[]{
     .then(res =>{
         let previousGames = res.data.response 
 
-        for(let i = previousGames.length-1; i >= previousGames.length-6; i--){
+        for(let i = previousGames.length-1; i >= previousGames.length-7; i--){
             if(previousGames[i].status.long !== 'Not Started'){
             console.log(previousGames[i])
         }
