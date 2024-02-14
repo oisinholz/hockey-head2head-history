@@ -1,30 +1,49 @@
 import React from 'react';
-import { IGame } from './interfaces'; 
+import { IGame, ITeam, IStandings } from './interfaces'; 
+import { getTeams } from './functions';
 
-const Results: React.FC<{ data: IGame[] }> = ({ data }) => {
+type TeamProps = {
+    optionA: string,
+    optionB: string
 
-    let teamA;
-    let teamB;
+}
 
+const Results = (props: TeamProps) => {
+
+const teamList:ITeam[] = getTeams()
+
+const teamA = teamList.find((team) => team.id === parseInt(props.optionA));
+const teamB = teamList.find((team) => team.id === parseInt(props.optionB));
+
+console.log("teamA " + (props.optionA))
+console.log("teamB " + (props.optionB))
+
+console.log("teamA is "+ teamA?.name);
+console.log("teamB is "+ teamB?.name);
+//using ? option chaining to check if variable is undefined or not
 
   return (
     <div className="results">
+    
+
         <table>
             <thead>
                 <tr>
-                    <td>team1.logo</td>
+                    <td><img src={teamA?.logo} alt={teamA?.name}/></td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>team2.logo</td>
+                    <td><img src={teamB?.logo} alt={teamB?.name}/></td>
                 </tr>
+                
                 <tr>
-                    <td>team1.name</td>
+                    <td>{teamA?.name}</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>team2.name</td>
+                    <td>{teamB?.name}</td>
                 </tr>
+
                 <tr>previousGames[i].scores</tr>
             </thead>
         </table>

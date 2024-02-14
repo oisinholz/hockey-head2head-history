@@ -1,6 +1,5 @@
 import data from "./nhlData.json";
-import { ITeam } from "./interfaces";
-import { IStandings } from "./interfaces";
+import { ITeam, IStandings } from "./interfaces";
 import axios from "axios";
 
 export function getTeams(): ITeam[]{
@@ -12,7 +11,7 @@ export function getTeams(): ITeam[]{
         teams.push(item.team);
     })
 
-    console.log(teams);
+    // console.log(teams);
     return teams;
   }
 

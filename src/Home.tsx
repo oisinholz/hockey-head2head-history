@@ -2,6 +2,7 @@ import { getTeams, headToHead } from "./functions";
 import { useState, useEffect } from "react";
 import { ITeam } from "./interfaces";
 import CircularIndeterminate from "./spinner";
+import Results from "./Results";
 
 const Home = () => {
 
@@ -15,6 +16,9 @@ const Home = () => {
 
     const [loading, setLoading] = useState(false);
     //when loading is true, will show circular progress bar
+    const [results, setResults] = useState(false);
+    //when results is true, will show result table
+
     
     useEffect(() => {
         let ignore = false;
@@ -28,6 +32,7 @@ const Home = () => {
         return () => {
           ignore = true;
         };}, []);
+        
 
         const handleSelectChange = (value: string, selectNumber: number) => {
             if (selectNumber === 1) {
@@ -39,9 +44,9 @@ const Home = () => {
             }
           };
 
-          const getFilteredTeams = (selectedValue: string) => {
-            return teams.filter((team) => team.name !== selectedValue);
-          };
+          // const getFilteredTeams = (selectedValue: string) => {
+          //   return teams.filter((team) => team.name !== selectedValue);
+          // };
 
 
         const goButtonClick = () => {
@@ -49,7 +54,8 @@ const Home = () => {
           setTimeout(()=>{
             setLoading(false);
             headToHead(optionA, optionB);
-          }, 3000);
+            setResults(true);
+          }, 2000);
         };
     
 
@@ -105,7 +111,7 @@ const Home = () => {
             //     setTeams((prevTeams) => getFilteredTeams(selectedValue));
             //   }}
             >
-                <option value="" disabled>Please choose an option</option>
+                <option value='' disabled>Please choose an option</option>
                 {sortedTeams.map((option) => (
                     <option key={option.id}
                     value={option.id}>
@@ -121,6 +127,10 @@ const Home = () => {
             <button onClick={goButtonClick}>GO!</button>
 
             {loading && <CircularIndeterminate />}
+
+            {results && <Results optionA={optionA} optionB={optionB} />}
+
+
             
         </div>
      );
