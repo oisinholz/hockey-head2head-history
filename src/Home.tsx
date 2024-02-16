@@ -53,7 +53,7 @@ const Home = () => {
           setLoading(true);
           setTimeout(()=>{
             setLoading(false);
-            headToHead(optionA, optionB);
+            // headToHead(optionA, optionB);
             setResults(true);
           }, 2000);
         };

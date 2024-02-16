@@ -19,6 +19,7 @@ export interface ITeam {
   }
 
   export interface IGame {
+    id: number;
     date: string;
     scores: {
       home: number;
@@ -27,6 +28,10 @@ export interface ITeam {
     teams: {
       home: ITeam;
       away: ITeam
+    };
+    status: {
+      long: string;
+      short: string
     }
 
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { IGame, ITeam, IStandings } from './interfaces'; 
-import { getTeams } from './functions';
+import { getTeams, headToHead } from './functions';
 
 type TeamProps = {
     optionA: string,
@@ -11,16 +11,19 @@ type TeamProps = {
 const Results = (props: TeamProps) => {
 
 const teamList:ITeam[] = getTeams()
+const previousGames: IGame[] = headToHead((props.optionA), (props.optionB))
 
 const teamA = teamList.find((team) => team.id === parseInt(props.optionA));
 const teamB = teamList.find((team) => team.id === parseInt(props.optionB));
 
-console.log("teamA " + (props.optionA))
-console.log("teamB " + (props.optionB))
+console.log("teamA.id " + (props.optionA))
+console.log("teamB.id " + (props.optionB))
 
-console.log("teamA is "+ teamA?.name);
-console.log("teamB is "+ teamB?.name);
+console.log("teamA.name is "+ teamA?.name);
+console.log("teamB.name is "+ teamB?.name);
 //using ? option chaining to check if variable is undefined or not
+
+console.log(previousGames);
 
   return (
     <div className="results">
@@ -29,22 +32,30 @@ console.log("teamB is "+ teamB?.name);
         <table>
             <thead>
                 <tr>
-                    <td><img src={teamA?.logo} alt={teamA?.name}/></td>
+                    <td><img src={teamA?.logo} alt={teamA?.name || "unable to fetch name"}/></td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><img src={teamB?.logo} alt={teamB?.name}/></td>
+                    <td><img src={teamB?.logo} alt={teamB?.name || "unable to fetch name"}/></td>
                 </tr>
                 
                 <tr>
-                    <td>{teamA?.name}</td>
+                    <td>{teamA?.name || "unable to fetch name"}</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>{teamB?.name}</td>
+                    <td>{teamB?.name || "unable to fetch name"}</td>
                 </tr>
 
-                <tr>previousGames[i].scores</tr>
+                {previousGames.slice(0,5).map((game) => (
+                    <tr key={game.id}>
+                         <td>{teamA?.id !== game.teams.away.id ? game.scores.home : game.scores.away}</td>
+                         <td>{teamA?.id !== game.teams.away.id ? "Home" : "Away"}</td>
+                         <td>{game.date}</td>
+                         <td>{teamB?.id !== game.teams.away.id ? "Home" : "Away"}</td>
+                         <td>{teamB?.id !== game.teams.away.id ? game.scores.away : game.scores.home}</td>
+                    </tr>
+                 ))}
             </thead>
         </table>
     </div>
