@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { ITeam } from "./interfaces";
 import CircularIndeterminate from "./spinner";
 import Results from "./Results";
+import { Button, Container, Grid, Typography } from "@mui/material";
 
 const Home: React.FC = () => {
 
@@ -51,6 +52,7 @@ const Home: React.FC = () => {
 
 
   const goButtonClick = () => {
+    console.log("Go button pressed");
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
@@ -62,81 +64,98 @@ const Home: React.FC = () => {
 
 
   return (
-    <div className="home">
-      <h2>Select teams</h2>
+    <Container sx={{ bgcolor: "primary.main" }}>
+      <div className="home">
+        {/* <h2>Select teams</h2> */}
+        <Typography variant="h1"
+          sx={{ my: 3, textAlign: "center", color: "secondary.main" }}>
+          Select Teams
+        </Typography>
 
-      <select
-        required
-        defaultValue={'DEFAULT'}
-        name="leftTeam"
-        id="leftTeam"
-        value={optionA}
-        onChange={(e) => {
-          handleSelectChange(e.target.value, 1)
-          if (e.target.value === optionB) {
-            alert('Please choose two different teams');
-            setOptionA('');
-          }
-        }}
-      // onChange={(e) => {
-      //     const selectedValue = e.target.value;
-      //     setOptionA(selectedValue);
-      //     setTeams((prevTeams) => getFilteredTeams(selectedValue));
-      //   }}
-      >
-        <option value='' disabled >Please choose an option</option>
-        {sortedTeams.map((option) => (
-          <option key={option.id}
-            value={option.id}>
-            {option.name}
-          </option>
-        ))}
-      </select>
+        <Grid container alignItems={"center"} justifyContent={"space-between"} sx={{px: 6}}>
 
-      <p>VS</p>
+          <Grid item>
+            <select
+              required
+              defaultValue={'DEFAULT'}
+              name="leftTeam"
+              id="leftTeam"
+              value={optionA}
+              onChange={(e) => {
+                handleSelectChange(e.target.value, 1)
+                if (e.target.value === optionB) {
+                  alert('Please choose two different teams');
+                  setOptionA('');
+                }
+              }}
+            // onChange={(e) => {
+            //     const selectedValue = e.target.value;
+            //     setOptionA(selectedValue);
+            //     setTeams((prevTeams) => getFilteredTeams(selectedValue));
+            //   }}
+            >
+              <option value='' disabled >Please choose an option</option>
+              {sortedTeams.map((option) => (
+                <option key={option.id}
+                  value={option.id}>
+                  {option.name}
+                </option>
+              ))}
+            </select>
+          </Grid>
 
-      <select
-        required
-        defaultValue={'DEFAULT'}
-        name="rightTeam"
-        id="rightTeam"
-        value={optionB}
-        onChange={(e) => {
-          handleSelectChange(e.target.value, 2)
-          if (e.target.value === optionA) {
-            alert('Please choose two different teams');
-            setOptionB('');
-          }
-        }}
-      // onChange={(e) => {
-      //     const selectedValue = e.target.value;
-      //     setOptionB(selectedValue);
-      //     setTeams((prevTeams) => getFilteredTeams(selectedValue));
-      //   }}
-      >
-        <option value='' disabled>Please choose an option</option>
-        {sortedTeams.map((option) => (
-          <option key={option.id}
-            value={option.id}>
-            {option.name}
-          </option>
-        ))}
-      </select>
+          <Grid item>
+            {/* <p>VS</p> */}
+            <Typography variant="h3"
+              sx={{ my: 3, textAlign: "center", color: "secondary.main" }}>
+              VS
+            </Typography>
+          </Grid>
+
+          <Grid item>
+            <select
+              required
+              defaultValue={'DEFAULT'}
+              name="rightTeam"
+              id="rightTeam"
+              value={optionB}
+              onChange={(e) => {
+                handleSelectChange(e.target.value, 2)
+                if (e.target.value === optionA) {
+                  alert('Please choose two different teams');
+                  setOptionB('');
+                }
+              }}
+            // onChange={(e) => {
+            //     const selectedValue = e.target.value;
+            //     setOptionB(selectedValue);
+            //     setTeams((prevTeams) => getFilteredTeams(selectedValue));
+            //   }}
+            >
+              <option value='' disabled>Please choose an option</option>
+              {sortedTeams.map((option) => (
+                <option key={option.id}
+                  value={option.id}>
+                  {option.name}
+                </option>
+              ))}
+            </select>
+          </Grid>
+        </Grid>
+        {/* <button onClick={() => console.log(optionA + " v " + optionB)}>Go!</button> */}
+        {/* <button onClick={()=> headToHead(optionA, optionB)}>Go!</button> */}
+
+        <button onClick={goButtonClick}>GO!</button>
+
+        {loading && <CircularIndeterminate />}
 
 
-      {/* <button onClick={() => console.log(optionA + " v " + optionB)}>Go!</button> */}
-      {/* <button onClick={()=> headToHead(optionA, optionB)}>Go!</button> */}
-
-      <button onClick={goButtonClick}>GO!</button>
-
-      {loading && <CircularIndeterminate />}
-
-
-      {results && <Results optionA={optionA} optionB={optionB} />}
+        {results && <Results optionA={optionA} optionB={optionB} />}
 
 
 
-    </div>
+      </div>
+    </Container>
   );
 }
 
